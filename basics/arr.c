@@ -4,7 +4,7 @@
 int main (){
 
 	double price[] = {2.0, 3.0, 4.0};
-	for (int i = 0; i< sizeof(price)/8;i++){
+	for (int i = 0; i< sizeof(price)/sizeof(prices[0]);i++){
 		printf("%.2lf\n", price[i]);
 	}
 
